@@ -10,6 +10,7 @@ import Navbar from "./components/navbar";
 import Home from './components/home';
 import Results from './components/results';
 import Download from './components/download';
+import Footer from './components/footer'
 import Player from './components/player';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       </Switch>
       <Route path="/play/:id" component={Player} />
       <Route path="/download/:id" component={Download} />
+      <Footer />
     </Router>
     </div>
   );
